@@ -1,4 +1,4 @@
-baseURL = "./"
+baseURL = "https://awei-blog.vercel.app/"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "LoveIt"
@@ -281,7 +281,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     RootMe= ""
     Phone = ""
     Email = "lewinloo0320@gmail.com"
-    RSS = true #
+    RSS = false #
 
   #  文章页面全局配置
   [params.page]
