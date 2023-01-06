@@ -281,7 +281,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     RootMe= ""
     Phone = ""
     Email = "lewinloo0320@gmail.com"
-    RSS = true #
+    RSS = false #
 
   #  文章页面全局配置
   [params.page]
