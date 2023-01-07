@@ -6,12 +6,13 @@ theme = "LoveIt"
 # 网站标题
 title = "Awei 知识分享"
 
+defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "zh-CN"
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
 languageName = "简体中文"
 # 是否包括中日韩文字
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 # 默认每页列表显示的文章数目
 paginate = 12
@@ -33,7 +34,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # 作者配置
 [author]
   name = "Awei"
-  email = ""
+  email = "lewinloo0320@gmail.com"
   link = ""
 
 # 菜单配置
@@ -96,7 +97,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # 标题名称
       name = "Awei"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       #  是否为标题显示打字机动画
@@ -157,7 +158,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   [params.search]
     enable = true
     # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # 文章内容最长索引长度
     contentLength = 4000
     # 搜索框的占位提示语
@@ -189,7 +190,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       #  主页显示的网站标题 (支持 HTML 格式)
       title = "Awei"
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "致力于前端和Golang领域."
+      subtitle = "致力于前端和 Golang 领域."
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -292,7 +293,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     #  是否使用 twemoji
     twemoji = false
     # 是否使用 lightgallery
-    lightgallery = false
+    lightgallery = true
     #  是否使用 ruby 扩展语法
     ruby = true
     #  是否使用 fraction 扩展语法
@@ -302,13 +303,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 是否在文章页面显示原始 Markdown 文档链接
     linkToMarkdown = true
     #  是否在 RSS 中显示全文内容
-    rssFullText = false
+    rssFullText = true
     #  目录配置
     [params.page.toc]
       # 是否使用目录
       enable = true
       #  是否保持使用文章前面的静态目录
-      keepStatic = true
+      keepStatic = false
       # 是否使侧边目录自动折叠展开
       auto = true
     #  代码配置
@@ -348,7 +349,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       fullscreen = true
     #  文章页面的分享信息设置
     [params.page.share]
-      enable = true
+      enable = false
       Twitter = true
       Facebook = true
       Linkedin = false
@@ -391,9 +392,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         clientSecret = ""
       # Valine 评论系统设置
       [params.page.comment.valine]
-        enable = false
-        appId = ""
-        appKey = ""
+        enable = true
+        appId = "bYYh7HpMTFuokW5NGt1x3BC2-gzGzoHsz"
+        appKey = "FMly2a8MMAQGGHvRgoC5Az2Y"
         placeholder = ""
         avatar = "mp"
         meta= ""
@@ -404,7 +405,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = ""
+        serverURLs = "https://byyh7hpm.lc-cn-n1-shared.com"
         #  emoji 数据文件名称, 默认是 "google.yml"
         # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
         # 位于 "themes/LoveIt/assets/lib/valine/emoji/" 目录
