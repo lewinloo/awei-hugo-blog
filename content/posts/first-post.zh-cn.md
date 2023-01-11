@@ -1,18 +1,15 @@
 ---
-weight: 3
 title: "First Post"
 date: 2023-01-06T22:33:57+08:00
 draft: false
 description: "第一篇文章"
-
 resources:
 - name: "hugo_banner"
-  src: "hugo_banner.png"
+  src: "hugo_banner.jpg"
 
 categories: ["Markdown"]
-tags: ["Markdown", "HTML"]
+tags: ["Markdown", "HTML"]  
 
-lightgallery: true
 ---
 
 ## Start
